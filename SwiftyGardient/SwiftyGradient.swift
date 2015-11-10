@@ -8,41 +8,41 @@
 
 import UIKit
 
-@IBDesignable class SwiftyGardient : UIView {
+@IBDesignable class SwiftyGradient : UIView {
     
     
     /// The startColor for the Gardient
     @IBInspectable var startColor: UIColor = UIColor.whiteColor() {
         didSet{
-            setupSwiftyGardient()
+            setupSwiftyGradient()
         }
     }
     
     /// Thet endColor for the Gardient
     @IBInspectable var endColor: UIColor = UIColor.blackColor() {
         didSet{
-            setupSwiftyGardient()
+            setupSwiftyGradient()
         }
     }
     
     ///Draw the Gardient Horizontal
     @IBInspectable var isHorizontal: Bool = false {
         didSet{
-            setupSwiftyGardient()
+            setupSwiftyGradient()
         }
     }
     
     ///The roundness for the corner
-    @IBInspectable var roundness: CGFloat = 0.0 {
+    @IBInspectable var cornerRadius: CGFloat = 0.0 {
         didSet{
-            setupSwiftyGardient()
+            setupSwiftyGradient()
         }
     }
     
-    func setupSwiftyGardient() {
+    func setupSwiftyGradient() {
         let colors:Array = [startColor.CGColor,endColor.CGColor]
         gradientLayer.colors = colors
-        gradientLayer.cornerRadius = roundness
+        gradientLayer.cornerRadius = cornerRadius
         gradientLayer.endPoint = isHorizontal ?  CGPoint(x: 1, y: 0) : CGPoint(x: 0, y: 1)
         self.setNeedsDisplay()
     }
@@ -59,11 +59,11 @@ import UIKit
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupSwiftyGardient()
+        setupSwiftyGradient()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        setupSwiftyGardient()
+        setupSwiftyGradient()
     }
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50B5BBDF1BF134FA00E0240B"
-               BuildableName = "SwiftyGardient.app"
-               BlueprintName = "SwiftyGardient"
-               ReferencedContainer = "container:SwiftyGardient.xcodeproj">
+               BuildableName = "SwiftyGradient.app"
+               BlueprintName = "SwiftyGradient"
+               ReferencedContainer = "container:SwiftyGradient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50B5BBF31BF134FA00E0240B"
-               BuildableName = "SwiftyGardientTests.xctest"
-               BlueprintName = "SwiftyGardientTests"
-               ReferencedContainer = "container:SwiftyGardient.xcodeproj">
+               BuildableName = "SwiftyGradient.xctest"
+               BlueprintName = "SwiftyGradientTests"
+               ReferencedContainer = "container:SwiftyGradient.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50B5BBFE1BF134FA00E0240B"
-               BuildableName = "SwiftyGardientUITests.xctest"
-               BlueprintName = "SwiftyGardientUITests"
-               ReferencedContainer = "container:SwiftyGardient.xcodeproj">
+               BuildableName = "SwiftyGradient.xctest"
+               BlueprintName = "SwiftyGradientUITests"
+               ReferencedContainer = "container:SwiftyGradient.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "50B5BBDF1BF134FA00E0240B"
-            BuildableName = "SwiftyGardient.app"
-            BlueprintName = "SwiftyGardient"
-            ReferencedContainer = "container:SwiftyGardient.xcodeproj">
+            BuildableName = "SwiftyGradient.app"
+            BlueprintName = "SwiftyGradient"
+            ReferencedContainer = "container:SwiftyGradient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "50B5BBDF1BF134FA00E0240B"
-            BuildableName = "SwiftyGardient.app"
-            BlueprintName = "SwiftyGardient"
-            ReferencedContainer = "container:SwiftyGardient.xcodeproj">
+            BuildableName = "SwiftyGradient.app"
+            BlueprintName = "SwiftyGradient"
+            ReferencedContainer = "container:SwiftyGradient.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "50B5BBDF1BF134FA00E0240B"
-            BuildableName = "SwiftyGardient.app"
-            BlueprintName = "SwiftyGardient"
-            ReferencedContainer = "container:SwiftyGardient.xcodeproj">
+            BuildableName = "SwiftyGradient.app"
+            BlueprintName = "SwiftyGradient"
+            ReferencedContainer = "container:SwiftyGradient.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
