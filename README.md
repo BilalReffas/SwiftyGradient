@@ -16,7 +16,8 @@ Xcode 6.0 Swift 2.0
 ## Author
 
 Bilal Karim Reffas
-Twitter: [Bilal Karim Reffas](https://twitter.com/reffas_bilal)
+
+Twitter: [@reffas:bilal](https://twitter.com/reffas_bilal)
 
 
 ## License
