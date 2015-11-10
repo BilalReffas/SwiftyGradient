@@ -12,8 +12,8 @@
 		50B5BBE91BF134FA00E0240B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B5BBE71BF134FA00E0240B /* Main.storyboard */; };
 		50B5BBEB1BF134FA00E0240B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B5BBEA1BF134FA00E0240B /* Assets.xcassets */; };
 		50B5BBEE1BF134FA00E0240B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B5BBEC1BF134FA00E0240B /* LaunchScreen.storyboard */; };
-		50B5BBF91BF134FA00E0240B /* SwiftyGardientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5BBF81BF134FA00E0240B /* SwiftyGardientTests.swift */; };
-		50B5BC041BF134FA00E0240B /* SwiftyGardientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5BC031BF134FA00E0240B /* SwiftyGardientUITests.swift */; };
+		50B5BBF91BF134FA00E0240B /* SwiftyGradientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5BBF81BF134FA00E0240B /* SwiftyGradientTests.swift */; };
+		50B5BC041BF134FA00E0240B /* SwiftyGradientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5BC031BF134FA00E0240B /* SwiftyGradientUITests.swift */; };
 		50B5BC121BF1352100E0240B /* SwiftyGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B5BC111BF1352100E0240B /* SwiftyGradient.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,14 +23,14 @@
 			containerPortal = 50B5BBD81BF134FA00E0240B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 50B5BBDF1BF134FA00E0240B;
-			remoteInfo = SwiftyGardient;
+			remoteInfo = SwiftyGradient;
 		};
 		50B5BC001BF134FA00E0240B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 50B5BBD81BF134FA00E0240B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 50B5BBDF1BF134FA00E0240B;
-			remoteInfo = SwiftyGardient;
+			remoteInfo = SwiftyGradient;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -43,10 +43,10 @@
 		50B5BBED1BF134FA00E0240B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B5BBEF1BF134FA00E0240B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B5BBF41BF134FA00E0240B /* SwiftyGradient.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyGradient.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50B5BBF81BF134FA00E0240B /* SwiftyGardientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGardientTests.swift; sourceTree = "<group>"; };
+		50B5BBF81BF134FA00E0240B /* SwiftyGradientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGradientTests.swift; sourceTree = "<group>"; };
 		50B5BBFA1BF134FA00E0240B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B5BBFF1BF134FA00E0240B /* SwiftyGradient.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyGradient.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50B5BC031BF134FA00E0240B /* SwiftyGardientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGardientUITests.swift; sourceTree = "<group>"; };
+		50B5BC031BF134FA00E0240B /* SwiftyGradientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGradientUITests.swift; sourceTree = "<group>"; };
 		50B5BC051BF134FA00E0240B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B5BC111BF1352100E0240B /* SwiftyGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				50B5BBE21BF134FA00E0240B /* SwiftyGradient */,
-				50B5BBF71BF134FA00E0240B /* SwiftyGardientTests */,
-				50B5BC021BF134FA00E0240B /* SwiftyGardientUITests */,
+				50B5BBF71BF134FA00E0240B /* SwiftyGradientTests */,
+				50B5BC021BF134FA00E0240B /* SwiftyGradientUITests */,
 				50B5BBE11BF134FA00E0240B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,25 +108,25 @@
 				50B5BBEF1BF134FA00E0240B /* Info.plist */,
 			);
 			name = SwiftyGradient;
-			path = SwiftyGardient;
+			path = SwiftyGradient;
 			sourceTree = "<group>";
 		};
-		50B5BBF71BF134FA00E0240B /* SwiftyGardientTests */ = {
+		50B5BBF71BF134FA00E0240B /* SwiftyGradientTests */ = {
 			isa = PBXGroup;
 			children = (
-				50B5BBF81BF134FA00E0240B /* SwiftyGardientTests.swift */,
+				50B5BBF81BF134FA00E0240B /* SwiftyGradientTests.swift */,
 				50B5BBFA1BF134FA00E0240B /* Info.plist */,
 			);
-			path = SwiftyGardientTests;
+			path = SwiftyGradientTests;
 			sourceTree = "<group>";
 		};
-		50B5BC021BF134FA00E0240B /* SwiftyGardientUITests */ = {
+		50B5BC021BF134FA00E0240B /* SwiftyGradientUITests */ = {
 			isa = PBXGroup;
 			children = (
-				50B5BC031BF134FA00E0240B /* SwiftyGardientUITests.swift */,
+				50B5BC031BF134FA00E0240B /* SwiftyGradientUITests.swift */,
 				50B5BC051BF134FA00E0240B /* Info.plist */,
 			);
-			path = SwiftyGardientUITests;
+			path = SwiftyGradientUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +145,7 @@
 			dependencies = (
 			);
 			name = SwiftyGradient;
-			productName = SwiftyGardient;
+			productName = SwiftyGradient;
 			productReference = 50B5BBE01BF134FA00E0240B /* SwiftyGradient.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -163,7 +163,7 @@
 				50B5BBF61BF134FA00E0240B /* PBXTargetDependency */,
 			);
 			name = SwiftyGradientTests;
-			productName = SwiftyGardientTests;
+			productName = SwiftyGradientTests;
 			productReference = 50B5BBF41BF134FA00E0240B /* SwiftyGradient.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -181,7 +181,7 @@
 				50B5BC011BF134FA00E0240B /* PBXTargetDependency */,
 			);
 			name = SwiftyGradientUITests;
-			productName = SwiftyGardientUITests;
+			productName = SwiftyGradientUITests;
 			productReference = 50B5BBFF1BF134FA00E0240B /* SwiftyGradient.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B5BBF91BF134FA00E0240B /* SwiftyGardientTests.swift in Sources */,
+				50B5BBF91BF134FA00E0240B /* SwiftyGradientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B5BC041BF134FA00E0240B /* SwiftyGardientUITests.swift in Sources */,
+				50B5BC041BF134FA00E0240B /* SwiftyGradientUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,9 +404,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftyGardient/Info.plist;
+				INFOPLIST_FILE = SwiftyGradient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGardient";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGradient";
 				PRODUCT_NAME = SwiftyGradient;
 			};
 			name = Debug;
@@ -415,9 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftyGardient/Info.plist;
+				INFOPLIST_FILE = SwiftyGradient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGardient";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGradient";
 				PRODUCT_NAME = SwiftyGradient;
 			};
 			name = Release;
@@ -426,9 +426,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftyGardientTests/Info.plist;
+				INFOPLIST_FILE = SwiftyGradientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGardientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGradientTests";
 				PRODUCT_NAME = SwiftyGradient;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyGradient.app/SwiftyGradient";
 			};
@@ -438,9 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftyGardientTests/Info.plist;
+				INFOPLIST_FILE = SwiftyGradientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGardientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGradientTests";
 				PRODUCT_NAME = SwiftyGradient;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyGradient.app/SwiftyGradient";
 			};
@@ -449,11 +449,11 @@
 		50B5BC0F1BF134FA00E0240B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftyGardientUITests/Info.plist;
+				INFOPLIST_FILE = SwiftyGradientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGardientUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGradientUITests";
 				PRODUCT_NAME = SwiftyGradient;
-				TEST_TARGET_NAME = SwiftyGardient;
+				TEST_TARGET_NAME = SwiftyGradient;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -461,11 +461,11 @@
 		50B5BC101BF134FA00E0240B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftyGardientUITests/Info.plist;
+				INFOPLIST_FILE = SwiftyGradientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGardientUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Bilal-Karim-Reffas..SwiftyGradientUITests";
 				PRODUCT_NAME = SwiftyGradient;
-				TEST_TARGET_NAME = SwiftyGardient;
+				TEST_TARGET_NAME = SwiftyGradient;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
