@@ -1,6 +1,6 @@
 # SwiftyGardient
 
-Apple TV Parallax effect in Swift.
+Gardientcolor in Swift.
 
 <img src="http://i.imgur.com/hl8yox0.png" alt="GardientView example">
 
