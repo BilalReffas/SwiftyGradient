@@ -1,4 +1,4 @@
-# SwiftyGardient
+# SwiftyGradient
 
 Gardientcolor in Swift.
 
