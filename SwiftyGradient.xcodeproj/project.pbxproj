@@ -79,7 +79,7 @@
 		50B5BBD71BF134FA00E0240B = {
 			isa = PBXGroup;
 			children = (
-				50B5BBE21BF134FA00E0240B /* SwiftyGardient */,
+				50B5BBE21BF134FA00E0240B /* SwiftyGradient */,
 				50B5BBF71BF134FA00E0240B /* SwiftyGardientTests */,
 				50B5BC021BF134FA00E0240B /* SwiftyGardientUITests */,
 				50B5BBE11BF134FA00E0240B /* Products */,
@@ -96,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50B5BBE21BF134FA00E0240B /* SwiftyGardient */ = {
+		50B5BBE21BF134FA00E0240B /* SwiftyGradient */ = {
 			isa = PBXGroup;
 			children = (
 				50B5BBE31BF134FA00E0240B /* AppDelegate.swift */,
@@ -107,6 +107,7 @@
 				50B5BBEC1BF134FA00E0240B /* LaunchScreen.storyboard */,
 				50B5BBEF1BF134FA00E0240B /* Info.plist */,
 			);
+			name = SwiftyGradient;
 			path = SwiftyGardient;
 			sourceTree = "<group>";
 		};
