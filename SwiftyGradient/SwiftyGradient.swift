@@ -32,6 +32,12 @@ import UIKit
         }
     }
     
+    @IBInspectable var createCirlce: Bool = false {
+        didSet {
+            setupSwiftyGradient()
+        }
+    }
+    
     ///The roundness for the corner
     @IBInspectable var cornerRadius: CGFloat = 0.0 {
         didSet{
@@ -40,11 +46,24 @@ import UIKit
     }
     
     func setupSwiftyGradient() {
+      if self.createCirlce{
+        ///Make Sure that your frame have the same height and width...
+        self.layer.cornerRadius = self.frame.size.width/2
+        self.layer.masksToBounds = true
+        self.clipsToBounds = true
+        self.setNeedsDisplay()
+
+      }else{
+        
         let colors:Array = [startColor.CGColor,endColor.CGColor]
         gradientLayer.colors = colors
         gradientLayer.cornerRadius = cornerRadius
         gradientLayer.endPoint = isHorizontal ?  CGPoint(x: 1, y: 0) : CGPoint(x: 0, y: 1)
         self.setNeedsDisplay()
+        
+        }
+
+        
     }
     
 
