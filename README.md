@@ -1,4 +1,6 @@
-->![SwiftyGradient](http://i.imgur.com/Jhd3HMl.png)<-
+![SwiftyGradient](http://i.imgur.com/Jhd3HMl.png)
+
+
 SwiftyGradient makes really easy to use gradient in your Xcode Project.
 You can use the Interface Builder or just Code.
 SwiftyGradient is written in Swift.
