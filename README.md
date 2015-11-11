@@ -2,7 +2,7 @@
 
 Gradientcolor in Swift.
 
-<img src="http://i.imgur.com/hl8yox0.png" alt="GradientView example">
+<img src="http://i.imgur.com/Jhd3HMl.png" alt="GradientView example">
 
 ## Usage
 <img src="http://g.recordit.co/8onVFQBDcA.gif">
