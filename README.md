@@ -7,6 +7,7 @@ Gradientcolor in Swift.
 ## Usage
 
 Just drag SwiftyGradient.swift to your project.
+<img src="http://g.recordit.co/8onVFQBDcA.gif">
 
 ## Requirements
 
