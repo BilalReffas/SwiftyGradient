@@ -5,9 +5,13 @@ Gradientcolor in Swift.
 <img src="http://i.imgur.com/hl8yox0.png" alt="GradientView example">
 
 ## Usage
+<img src="http://g.recordit.co/8onVFQBDcA.gif">
+
+
+
 
 Just drag SwiftyGradient.swift to your project.
-<img src="http://g.recordit.co/8onVFQBDcA.gif">
+
 
 ## Requirements
 
