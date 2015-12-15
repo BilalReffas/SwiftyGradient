@@ -26,7 +26,7 @@ import UIKit
     }
     
     ///Draw the Gardient Horizontal
-    @IBInspectable var isHorizontal: Bool = false {
+    @IBInspectable var horizontal: Bool = false {
         didSet{
             setupSwiftyGradient()
         }
@@ -58,10 +58,11 @@ import UIKit
         let colors:Array = [startColor.CGColor,endColor.CGColor]
         gradientLayer.colors = colors
         gradientLayer.cornerRadius = cornerRadius
-        gradientLayer.endPoint = isHorizontal ?  CGPoint(x: 1, y: 0) : CGPoint(x: 0, y: 1)
         self.setNeedsDisplay()
         
         }
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = horizontal ?  CGPoint(x: 1, y: 0) : CGPoint(x: 0, y: 1)
 
         
     }
