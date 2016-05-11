@@ -16,11 +16,12 @@ Just drag SwiftyGradient.swift to your project.
 
 ## Usage in code
 
-`let myView = SwiftyGradient(frame: CGRect(x: 100, y: 100, width: 100, height: 100))`
- `myView.startColor = UIColor(red:0.15, green:0.67, blue:0.42, alpha:1)`
- `myView.endColor = UIColor(red:0.82, green:0.31, blue:0.15, alpha:1)`
- `self.view.addSubview(myView)`
- 
+```
+let myView = SwiftyGradient(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+myView.startColor = UIColor(red:0.15, green:0.67, blue:0.42, alpha:1)
+myView.endColor = UIColor(red:0.82, green:0.31, blue:0.15, alpha:1)
+self.view.addSubview(myView)
+```
 
 ## Requirements
 
